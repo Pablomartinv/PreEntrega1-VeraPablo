@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "title": "Carpa",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    "price": 89,
+    "category": "camping",
+    "pictureURL": "http://dummyimage.com/125x100.png/cc0000/ffffff"
+  },
+  {
+    "id": 2,
+    "title": "Bolsa de dormir",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed",
+    "price": 57,
+    "category": "camping",
+    "pictureURL": "http://dummyimage.com/115x100.png/dddddd/000000"
+  },
+  {
+    "id": 3,
+    "title": "Mochila urbana",
+    "description": "Insertion of Infusion Dev into Up Back, Perc Endo Approach",
+    "price": 38,
+    "category": "mochilas",
+    "pictureURL": "http://dummyimage.com/198x100.png/5fa2dd/ffffff"
+  },
+  {
+    "id": 4,
+    "title": "Mochila de trekking",
+    "description": "Irrigation of Upper GI using Irrigat, Perc Approach, Diagn",
+    "price": 59,
+    "category": "mochilas",
+    "pictureURL": "http://dummyimage.com/245x100.png/ff4444/ffffff"
+  },
+  {
+    "id": 5,
+    "title": "Bolso",
+    "description": "Insert Bone Condct Hear Dev in R Inner Ear, Open",
+    "price": 59,
+    "category": "mochilas",
+    "pictureURL": "http://dummyimage.com/192x100.png/cc0000/ffffff"
+  },
+  {
+    "id": 6,
+    "title": "Zapatilla Hombre",
+    "description": "Restrict L Foot Vein w Intralum Dev, Perc Endo",
+    "price": 41,
+    "category": "calzado",
+    "pictureURL": "http://dummyimage.com/236x100.png/dddddd/000000"
+  },
+  {
+    "id": 7,
+    "title": "Zapatilla Mujer",
+    "description": "Supplement Left Tibia with Nonaut Sub, Perc Approach",
+    "price": 27,
+    "category": "calzado",
+    "pictureURL": "http://dummyimage.com/221x100.png/ff4444/ffffff"
+  },
+  {
+    "id": 8,
+    "title": "Bota Hombre",
+    "description": "Revision of Nonaut Sub in L Wrist Jt, Open Approach",
+    "price": 36,
+    "category": "calzado",
+    "pictureURL": "http://dummyimage.com/181x100.png/cc0000/ffffff"
+  },
+  {
+    "id": 9,
+    "title": "Bota Mujer",
+    "description": "Bypass Left Brachial Artery to L Up Arm Art, Open Approach",
+    "price": 64,
+    "category": "calzado",
+    "pictureURL": "http://dummyimage.com/147x100.png/ff4444/ffffff"
+  },
+  {
+    "id": 10,
+    "title": "Zapatilla Niño",
+    "description": "Ear, Nose, Sinus, Extirpation",
+    "price": 95,
+    "category": "calzado",
+    "pictureURL": "http://dummyimage.com/205x100.png/ff4444/ffffff"
+  }
+]

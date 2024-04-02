@@ -1,25 +1,32 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import { NavLink } from 'react-router-dom';
 
+import { CartWidget } from './CartWidget';
 
-import { CartWidget } from "./CartWidget";
-
-export const NavBar = ()=>{
-    return (
-        <>
-        <Navbar bg="primary" data-bs-theme="dark">
+export const NavBar = () => {
+  return (
+    <>
+      <Navbar bg="primary" data-bs-theme="dark">
         <Container>
-          <Navbar.Brand href="#home">Patagonia Trekking</Navbar.Brand>
+          <Navbar.Brand to="/" as={NavLink}>
+            Patagonia Trekking
+          </Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link href="#">Montaña</Nav.Link>
-            <Nav.Link href="#">Camping</Nav.Link>
-            <Nav.Link href="#">Invierno</Nav.Link>
+            <Nav.Link to="category/calzado" as={NavLink}>
+              Calzado
+            </Nav.Link>
+            <Nav.Link to="category/camping" as={NavLink}>
+              Camping
+            </Nav.Link>
+            <Nav.Link to="category/mochilas" as={NavLink}>
+              Mochilas
+            </Nav.Link>
           </Nav>
-          <CartWidget/>
+          <CartWidget />
         </Container>
-        </Navbar>
-        
-        </>
-    )
+      </Navbar>
+    </>
+  );
 };
