@@ -7,6 +7,8 @@ import { ItemList } from './ItemList';
 
 export const ItemListContainer = ({ greeting }) => {
   const [products, setProducts] = useState([]);
+  const [loading, setLoading] = useState(true);
+
   const { id } = useParams();
 
   useEffect(() => {
@@ -14,21 +16,26 @@ export const ItemListContainer = ({ greeting }) => {
       setTimeout(() => resolve(data), 2000);
     });
 
-    get.then((data) => {
-      if (id) {
-        const filteredProducts = data.filter((d) => d.category === id);
-        setProducts(filteredProducts);
-      } else {
-        setProducts(data);
-      }
-    });
+    get
+      .then((data) => {
+        if (id) {
+          const filteredProducts = data.filter((d) => d.category === id);
+          setProducts(filteredProducts);
+        } else {
+          setProducts(data);
+        }
+      })
+      .finally(() => setLoading(false));
   }, [id]);
 
   return (
     <>
       <Container>
-        <h2>{greeting}</h2>
-        <ItemList products={products} />
+        <div id="greeting">
+          <h2>{greeting}</h2>
+        </div>
+
+        {loading ? <div>Loading</div> : <ItemList products={products} />}
       </Container>
     </>
   );

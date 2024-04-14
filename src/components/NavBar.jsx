@@ -14,8 +14,8 @@ export const NavBar = () => {
             Patagonia Trekking
           </Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link to="category/calzado" as={NavLink}>
-              Calzado
+            <Nav.Link to="category/bolsas" as={NavLink}>
+              Bolsas de dormir
             </Nav.Link>
             <Nav.Link to="category/camping" as={NavLink}>
               Camping

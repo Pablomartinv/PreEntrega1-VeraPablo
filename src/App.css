@@ -1,9 +1,13 @@
-#carrito>span{
-  color:whitesmoke;
+#carrito > span {
+  color: whitesmoke;
   padding-left: 1rem;
   font-weight: 900;
 }
 
-#carrito>img{
+#carrito > img {
   width: 40px;
+}
+
+#greeting {
+  text-align: center;
 }

@@ -1,82 +1,167 @@
 [
   {
     "id": 1,
-    "title": "Carpa",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    "price": 89,
+    "title": "Carpa profesional DOITE Himalaya 2",
+    "description": "Carpa profesional para 2 personas con faldón completo. Estructura de varillas de duraluminio para menor peso y mayor resistencia. Respiradores laterales y ventilación delantera, para mejor circulación del aire. Espacio extra en la entrada para almacenaje. Fácil de armar con sistema de clips que facilita el armado y desarmado en cualquier lugar y condición.",
+    "price": 563000,
     "category": "camping",
-    "pictureURL": "http://dummyimage.com/125x100.png/cc0000/ffffff"
+    "pictureURL": "https://www.doiteargentina.com.ar/wp-content/uploads/2016/11/doite-carpa-professional-himalaya2-15929-183009-01.jpg",
+    "pictureDetail1": "https://www.doiteargentina.com.ar/wp-content/uploads/2016/11/doite-carpa-professional-himalaya2-15929-183009-02.jpg ",
+    "pictureDetail2": "https://www.doiteargentina.com.ar/wp-content/uploads/2016/11/doite-carpa-professional-himalaya2-15929-183009-03.jpg ",
+    "pictureDetail3": "https://www.doiteargentina.com.ar/wp-content/uploads/2016/11/doite-carpa-professional-himalaya2-15929-183009-04.jpg"
   },
   {
     "id": 2,
-    "title": "Bolsa de dormir",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed",
-    "price": 57,
+    "title": "Carpa Family Dome Andina XR6",
+    "description": "Carpa tipo Iglú de diseño simple, cuenta con piso y faldón en el vestíbulo.",
+    "price": 525000,
     "category": "camping",
-    "pictureURL": "http://dummyimage.com/115x100.png/dddddd/000000"
+    "pictureURL": "https://www.doiteargentina.com.ar/wp-content/uploads/2016/11/doite-carpa-family-dome-andina-xr4-15917-183001-01.jpg",
+    "pictureDetail1": "https://www.doiteargentina.com.ar/wp-content/uploads/2016/11/doite-carpa-family-dome-andina-xr4-15917-183001-03.jpg ",
+    "pictureDetail2": "https://www.doiteargentina.com.ar/wp-content/uploads/2016/11/doite-carpa-family-dome-andina-xr4-15917-183001-04.jpg ",
+    "pictureDetail3": "https://www.doiteargentina.com.ar/wp-content/uploads/2016/11/doite-carpa-family-dome-andina-xr4-15917-183001-05.jpg "
   },
   {
     "id": 3,
-    "title": "Mochila urbana",
-    "description": "Insertion of Infusion Dev into Up Back, Perc Endo Approach",
-    "price": 38,
-    "category": "mochilas",
-    "pictureURL": "http://dummyimage.com/198x100.png/5fa2dd/ffffff"
+    "title": "Carpa Trekking Doite Tolhuaca 5",
+    "description": "Carpa de trekking de facil armado gracias a su sistema de ganchos y mangas en parte superior. Doble acceso y amplio espacio interior. Es una carpa que se mantiene muy estable contra el viento por contar con varillas cruzadas en los laterales",
+    "price": 1133000,
+    "category": "camping",
+    "pictureURL": "https://www.doiteargentina.com.ar/wp-content/uploads/2017/01/doite-carpa-trekking-tolhuaca3-15985-183014-01.jpg",
+    "pictureDetail1": "https://www.doiteargentina.com.ar/wp-content/uploads/2017/01/doite-carpa-trekking-tolhuaca3-15985-183014-02.jpg",
+    "pictureDetail2": "https://www.doiteargentina.com.ar/wp-content/uploads/2017/01/doite-carpa-trekking-tolhuaca3-15985-183014-03.jpg ",
+    "pictureDetail3": "https://www.doiteargentina.com.ar/wp-content/uploads/2017/01/doite-carpa-trekking-tolhuaca3-15985-183014-04.jpg "
   },
   {
     "id": 4,
-    "title": "Mochila de trekking",
-    "description": "Irrigation of Upper GI using Irrigat, Perc Approach, Diagn",
-    "price": 59,
-    "category": "mochilas",
-    "pictureURL": "http://dummyimage.com/245x100.png/ff4444/ffffff"
+    "title": "Carpa Family Division Pirineo Pro 8",
+    "description": "Carpa muy amplia con un vestíbulo frontal y 2 habitaciones independientes. Esta línea de carpas, conjuga mayor aprovechamiento del espacio interior. Cuenta con habitaciones independientes y tienen un espacio común techado. Son carpas de gran tamaño y en algunos casos su estructura es flexible y no ofrece resistencia al viento, sino, los acompaña y absorbe, recuperando por si sola su verticalidad. Esta carpa cuenta con martillo de aluminio.",
+    "price": 1200000,
+    "category": "camping",
+    "pictureURL": "https://www.doiteargentina.com.ar/wp-content/uploads/2016/12/doite-carpa-familiar-division-pirineo-pro8-15980-183572-04.jpg",
+    "pictureDetail1": "https://www.doiteargentina.com.ar/wp-content/uploads/2016/12/doite-carpa-familiar-division-pirineo-pro8-15980-183572-02.jpg",
+    "pictureDetail2": "https://www.doiteargentina.com.ar/wp-content/uploads/2016/12/doite-carpa-familiar-division-pirineo-pro8-15980-183572-01.jpg",
+    "pictureDetail3": "https://www.doiteargentina.com.ar/wp-content/uploads/2016/12/doite-carpa-familiar-division-pirineo-pro8-15980-183572-03.jpg"
   },
   {
     "id": 5,
-    "title": "Bolso",
-    "description": "Insert Bone Condct Hear Dev in R Inner Ear, Open",
-    "price": 59,
-    "category": "mochilas",
-    "pictureURL": "http://dummyimage.com/192x100.png/cc0000/ffffff"
+    "title": "Carpa Comedor Suiza DOITE Outdoor",
+    "description": "Carpa con estructura sólida y resistente, con gran ventilación y protección de insectos, sol y viento. Permite desarrollar múltiples actividades siendo un buen complemento de campamento.",
+    "price": 754000,
+    "category": "camping",
+    "pictureURL": "https://www.doiteargentina.com.ar/wp-content/uploads/2016/12/doite-carpa-comedor-suiza-05802-183019-01.jpg",
+    "pictureDetail1": "https://www.doiteargentina.com.ar/wp-content/uploads/183019-COMEDOR-DOITE-SUIZA-3.65-X-3.65-M.05802.jpg",
+    "pictureDetail2": "https://www.doiteargentina.com.ar/wp-content/uploads/183019-COMEDOR-DOITE-SUIZA-3.65-X-3.65-M.05802-4.jpg",
+    "pictureDetail3": "https://www.doiteargentina.com.ar/wp-content/uploads/183019-COMEDOR-DOITE-SUIZA-3.65-X-3.65-M.05802-6.jpg"
   },
   {
     "id": 6,
-    "title": "Zapatilla Hombre",
-    "description": "Restrict L Foot Vein w Intralum Dev, Perc Endo",
-    "price": 41,
-    "category": "calzado",
-    "pictureURL": "http://dummyimage.com/236x100.png/dddddd/000000"
+    "title": "Mochila Expedition DOITE BUSHIDO 80 Litros",
+    "description": "Mochila de gran tamaño, creada para personas que realizan expediciones largas. Diseñada a partir de materiales resistentes y con acceso superior al interior. Incluye cubremochila para proteger de la lluvia. Su espaldar tiene un panel inferior antideslizante para mayor comodidad.",
+    "price": 524000,
+    "category": "mochilas",
+    "pictureURL": "https://www.doiteargentina.com.ar/wp-content/uploads/2022/05/mochila-expedicion-doite-bushido-80litros-gris-01.jpg",
+    "pictureDetail1": "https://www.doiteargentina.com.ar/wp-content/uploads/2022/05/mochila-expedicion-doite-bushido-80litros-gris-02.jpg",
+    "pictureDetail2": "https://www.doiteargentina.com.ar/wp-content/uploads/2022/05/mochila-expedicion-doite-bushido-80litros-gris-04.jpg",
+    "pictureDetail3": "https://www.doiteargentina.com.ar/wp-content/uploads/2022/05/mochila-expedicion-doite-bushido-80litros-gris-03.jpg"
   },
   {
     "id": 7,
-    "title": "Zapatilla Mujer",
-    "description": "Supplement Left Tibia with Nonaut Sub, Perc Approach",
-    "price": 27,
-    "category": "calzado",
-    "pictureURL": "http://dummyimage.com/221x100.png/ff4444/ffffff"
+    "title": "Mochila New Minaret 50 litros",
+    "description": "Mochila de excursión mediana, estabiliza la carga en los hombros y las caderas, con el fin de obtener un máximo balance y con ello la movilidad y comodidad durante el trayecto",
+    "price": 349000,
+    "category": "mochilas",
+    "pictureURL": "https://www.doiteargentina.com.ar/wp-content/uploads/2023/08/183285-DOITE-MOCHILA-NEW-MINARET-50-NEG-ROJ-01-1.jpg",
+    "pictureDetail1": "https://www.doiteargentina.com.ar/wp-content/uploads/2023/08/183285-DOITE-MOCHILA-NEW-MINARET-50-NEG-ROJ-02.jpg",
+    "pictureDetail2": "https://www.doiteargentina.com.ar/wp-content/uploads/2023/08/183285-DOITE-MOCHILA-NEW-MINARET-50-NEG-ROJ-04.jpg",
+    "pictureDetail3": "https://www.doiteargentina.com.ar/wp-content/uploads/2023/08/183285-DOITE-MOCHILA-NEW-MINARET-50-NEG-ROJ-05.jpg"
   },
   {
     "id": 8,
-    "title": "Bota Hombre",
-    "description": "Revision of Nonaut Sub in L Wrist Jt, Open Approach",
-    "price": 36,
-    "category": "calzado",
-    "pictureURL": "http://dummyimage.com/181x100.png/cc0000/ffffff"
+    "title": "Mochila Doite Bookpack ENIGMA 30 Litros",
+    "description": "Mochila urbana con compartimiento para Laptop. Bolsillo frontal expandible para mayor volumen. Gran capacidad y organización. Bolsillo frontal expandible, para mayor volumen. Acolchado en panel posterior, permiten el traslado de un laptop de hasta 17¨. Correa de pecho, se adapta a la postura de la mochila. Bolsillo delantero acolchado para lentes u objetos delicados.",
+    "price": 243700,
+    "category": "mochilas",
+    "pictureURL": "https://www.doiteargentina.com.ar/wp-content/uploads/2018/07/doite-mochila-bookpack-enigma-30-17026-183274-01.jpg",
+    "pictureDetail1": "https://www.doiteargentina.com.ar/wp-content/uploads/2018/07/doite-mochila-bookpack-enigma-30-17026-183274-02.jpg",
+    "pictureDetail2": "https://www.doiteargentina.com.ar/wp-content/uploads/2018/07/doite-mochila-bookpack-enigma-30-17026-183274-03.jpg",
+    "pictureDetail3": "https://www.doiteargentina.com.ar/wp-content/uploads/2018/07/doite-mochila-bookpack-enigma-30-183273-01.jpg"
   },
   {
     "id": 9,
-    "title": "Bota Mujer",
-    "description": "Bypass Left Brachial Artery to L Up Arm Art, Open Approach",
-    "price": 64,
-    "category": "calzado",
-    "pictureURL": "http://dummyimage.com/147x100.png/ff4444/ffffff"
+    "title": "Mochila trekking Monte Eta 50 litros",
+    "description": "Mochila de 50 litros ideal para trekking. Su sistema de espaldar Air Vent permite una mayor ventilación gracias su sistema ergonómica de malla que permite la circulación del aire, manteniendo la espalda fresca.",
+    "price": 300600,
+    "category": "mochilas",
+    "pictureURL": "https://www.doiteargentina.com.ar/wp-content/uploads/2022/09/mochila-doite-trekking-monte-eta-50litros-petroleo-183340-01.jpg",
+    "pictureDetail1": "https://www.doiteargentina.com.ar/wp-content/uploads/2022/09/mochila-doite-trekking-monte-eta-50litros-petroleo-183340-04.jpg",
+    "pictureDetail2": "https://www.doiteargentina.com.ar/wp-content/uploads/2022/09/mochila-doite-trekking-monte-eta-50litros-petroleo-183340-06.jpg",
+    "pictureDetail3": "https://www.doiteargentina.com.ar/wp-content/uploads/2022/09/mochila-doite-trekking-monte-eta-50litros-petroleo-183340-03.jpg"
   },
   {
     "id": 10,
-    "title": "Zapatilla Niño",
-    "description": "Ear, Nose, Sinus, Extirpation",
-    "price": 95,
-    "category": "calzado",
-    "pictureURL": "http://dummyimage.com/205x100.png/ff4444/ffffff"
+    "title": "Mochila New Minaret 50 litros",
+    "description": "Mochila de excursión mediana, estabiliza la carga en los hombros y las caderas, con el fin de obtener un máximo balance y con ello la movilidad y comodidad durante el trayecto. Tiene el sistema de A.C.V Air Zone.",
+    "price": 349160,
+    "category": "mochilas",
+    "pictureURL": "https://www.doiteargentina.com.ar/wp-content/uploads/2023/08/183419-DOITE-MOCHILA-NEW-MINARET-50-GRIS-NARANJ-01.jpg",
+    "pictureDetail1": "https://www.doiteargentina.com.ar/wp-content/uploads/2023/08/183419-DOITE-MOCHILA-NEW-MINARET-50-GRIS-NARANJ-02.jpg",
+    "pictureDetail2": "https://www.doiteargentina.com.ar/wp-content/uploads/2023/08/183419-DOITE-MOCHILA-NEW-MINARET-50-GRIS-NARANJ-04.jpg",
+    "pictureDetail3": "https://www.doiteargentina.com.ar/wp-content/uploads/2023/08/183419-DOITE-MOCHILA-NEW-MINARET-50-GRIS-NARANJ-05.jpg"
+  },
+  {
+    "id": 11,
+    "title": "Mochila DOITE Sierra 60 litros",
+    "description": "Mochila de excursión mediana, estabiliza la carga en los hombros y las caderas, con el fin de obtener un máximo balance y con ello la movilidad y comodidad durante el trayecto.",
+    "price": 464000,
+    "category": "mochilas",
+    "pictureURL": "https://www.doiteargentina.com.ar/wp-content/uploads/2023/08/183750-MOCHILA-DOITE-SIERRA-60-NEGRO-NARANJA.jpg",
+    "pictureDetail1": "https://www.doiteargentina.com.ar/wp-content/uploads/2023/08/183750-MOCHILA-DOITE-SIERRA-60-NEGRO-NARANJA-4.jpg",
+    "pictureDetail2": "https://www.doiteargentina.com.ar/wp-content/uploads/2023/08/183750-MOCHILA-DOITE-SIERRA-60-NEGRO-NARANJA-2.jpg",
+    "pictureDetail3": "https://www.doiteargentina.com.ar/wp-content/uploads/2023/08/183750-MOCHILA-DOITE-SIERRA-60-NEGRO-NARANJA-1.jpg"
+  },
+  {
+    "id": 12,
+    "title": "Bolsa de dormir Technical Line Doite Alpine",
+    "description": "Por su relleno de HolloTec permite una mejor aislación a las bajas temperaturas. Sus fibras siliconizadas ahuecadas junto a su forma de momia permite mantener la temperatura del cuerpo.",
+    "price": 337000,
+    "category": "bolsas",
+    "pictureURL": "https://www.doiteargentina.com.ar/wp-content/uploads/2016/12/doite-bolsa-de-dormir-technical-line-alpine-183740-01.jpg",
+    "pictureDetail1": "",
+    "pictureDetail2": "",
+    "pictureDetail3": ""
+  },
+  {
+    "id": 13,
+    "title": "Bolsa de dormir Doite Woman Freya",
+    "description": "Bolsa de dormir desarrollada para las necesidades femeninas aportando mayor relleno donde ellas pierden o retienen menos temperatura, de tamaño adecuado para su morfología, permite una mínima pérdida de calor con un confort apreciable en condiciones de temperatura moderadaa fría con buena tolerancia a rango cercanos a 0º.",
+    "price": 393000,
+    "category": "bolsas",
+    "pictureURL": "https://www.doiteargentina.com.ar/wp-content/uploads/2017/05/doite-bolsa-de-dormir-woman-freya-pistacho-01.jpg",
+    "pictureDetail1": "https://www.doiteargentina.com.ar/wp-content/uploads/2016/11/183737-BOLSA-DE-DORMIR-DOITE-FREYA-GR-CERI-3448.jpg",
+    "pictureDetail2": "https://www.doiteargentina.com.ar/wp-content/uploads/2016/11/doite-bolsa-de-dormir-woman-line-freya-03362-183062-02.png",
+    "pictureDetail3": ""
+  },
+  {
+    "id": 14,
+    "title": "Bolsa de dormir Doite Familiar TEMPO Plus 13ºC/3ºC",
+    "description": "Bolsa de dormir familiar unible con otra TEMPO, pensado para viajes y uso indoor. Gran tamaño, incluye bolso de transporte. Tamaño abierto: 185 x 77 cm.",
+    "price": 113900,
+    "category": "bolsas",
+    "pictureURL": "https://www.doiteargentina.com.ar/wp-content/uploads/2017/05/doite-bolsa-de-dormir-familiar-tempo-plus-indigo-01.jpg",
+    "pictureDetail1": "https://www.doiteargentina.com.ar/wp-content/uploads/2017/05/doite-bolsa-de-dormir-familiar-tempo-plus-termicidad.png",
+    "pictureDetail2": "",
+    "pictureDetail3": ""
+  },
+  {
+    "id": 15,
+    "title": "Bolsa de dormir Family Line Doite Couple XL",
+    "description": "Bolsa de dormir de práctico diseño rectangular que priorizan comodidad, uso general indicado para camping en ambientes no adversos y para uso de toda la familia. Puede abrirse y usarse como plumón. Puede unirse con otro del mismo modelo. Tamaño: 190 + 35 cm x 80 cm",
+    "price": 224000,
+    "category": "bolsas",
+    "pictureURL": "https://www.doiteargentina.com.ar/wp-content/uploads/2017/05/doite-bolsa-de-dormir-family-line-couple-xl-navy-02.jpg",
+    "pictureDetail1": "https://www.doiteargentina.com.ar/wp-content/uploads/2016/12/doite-bolsa-de-dormir-family-line-couple-xl-03311-183070-02.png",
+    "pictureDetail2": "",
+    "pictureDetail3": ""
   }
 ]

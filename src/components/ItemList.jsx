@@ -1,9 +1,16 @@
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+
 import { Item } from './Item';
 
 export const ItemList = ({ products }) => (
-  <div className="d-flex">
+  <Row>
     {products.map((product) => {
-      return <Item key={product.id} product={product} />;
+      return (
+        <Col md={3}>
+          <Item key={product.id} product={product} />
+        </Col>
+      );
     })}
-  </div>
+  </Row>
 );
