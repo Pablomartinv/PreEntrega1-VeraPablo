@@ -8,7 +8,7 @@ import { CartWidget } from './CartWidget';
 export const NavBar = () => {
   return (
     <>
-      <Navbar bg="primary" data-bs-theme="dark">
+      <Navbar bg="success" data-bs-theme="dark">
         <Container>
           <Navbar.Brand to="/" as={NavLink}>
             Patagonia Trekking

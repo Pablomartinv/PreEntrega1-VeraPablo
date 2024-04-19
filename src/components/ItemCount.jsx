@@ -1,6 +1,8 @@
 import { useState } from 'react';
+import { Container } from 'react-bootstrap';
+import Button from 'react-bootstrap/Button';
 
-export const ItemCount = ({ stock, initial, onAdd }) => {
+export const ItemCount = ({ stock, initial, onAdd, product }) => {
   const [quantity, setQuantity] = useState(initial);
 
   const agregarProducto = () => {
@@ -16,20 +18,21 @@ export const ItemCount = ({ stock, initial, onAdd }) => {
   };
 
   return (
-    <>
-      <div>
-        <button type="button" onClick={quitarProducto}>
-          -
-        </button>
-        <span> {quantity} </span>
-        <button type="button" onClick={agregarProducto}>
-          +
-        </button>
-      </div>
-
-      <button type="button" onClick={() => onAdd(quantity)} disabled={!stock}>
+    <Container>
+      <Button variant="outline-success" onClick={quitarProducto}>
+        Quitar
+      </Button>
+      <span>{quantity}</span>
+      <Button variant="outline-success" onClick={agregarProducto}>
+        Agregar
+      </Button>
+      <Button
+        variant="outline-warning"
+        onClick={() => onAdd(quantity)}
+        disabled={!stock}
+      >
         Agregar al carrito
-      </button>
-    </>
+      </Button>
+    </Container>
   );
 };
