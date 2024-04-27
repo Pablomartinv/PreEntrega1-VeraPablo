@@ -6,7 +6,7 @@ export const ItemCount = ({ stock, initial, onAdd, product }) => {
   const [quantity, setQuantity] = useState(initial);
 
   const agregarProducto = () => {
-    if (quantity <= stock) {
+    if (quantity < stock) {
       setQuantity(quantity + 1);
     }
   };

@@ -23,19 +23,18 @@ export const ItemDetail = (product) => {
       image: product.pictureURL,
     };
 
-    addToCart(item);
+    addToCart(item, quantity);
   };
-  console.log(cartList);
 
   return (
     <Container key={product.id}>
       <Card.Header>
         {quantityAdded > 0 ? (
           <Link to="/cart">
-            <Button variant="warning">Comprar</Button>
+            <Button variant="warning">Finalizar compra</Button>
           </Link>
         ) : (
-          <ItemCount stock={10} initial={1} onAdd={handleOnAdd} />
+          <ItemCount stock={product.stock} initial={1} onAdd={handleOnAdd} />
         )}
       </Card.Header>
 
@@ -43,6 +42,7 @@ export const ItemDetail = (product) => {
         <Card.Body>
           <Card.Title>{product.title}</Card.Title>
           <Card.Text>${product.price}</Card.Text>
+          <Card.Text>Stock disponible: {product.stock} unidades</Card.Text>
           <Card.Text>{product.description}</Card.Text>
         </Card.Body>
         <Row>

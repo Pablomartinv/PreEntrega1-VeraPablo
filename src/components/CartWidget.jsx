@@ -1,4 +1,6 @@
 import carrito from '../assets/carrito.jpg';
+import { useContext } from 'react';
+import { CartContext } from '../contexts/CartContext';
 
 export const CartWidget = () => {
   return (
