@@ -5,7 +5,12 @@
 }
 
 #carrito > img {
-  width: 40px;
+  width: 40 px;
+  height: 40px;
+}
+
+#card {
+  padding: 30px;
 }
 
 #greeting {

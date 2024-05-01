@@ -10,7 +10,7 @@ import { CartContext } from '../contexts/CartContext';
 export const ItemDetail = (product) => {
   const [quantityAdded, setQuantityAdded] = useState(0);
 
-  const { addToCart, cartList } = useContext(CartContext);
+  const { addToCart } = useContext(CartContext);
 
   const handleOnAdd = (quantity) => {
     setQuantityAdded(quantity);
@@ -27,18 +27,18 @@ export const ItemDetail = (product) => {
   };
 
   return (
-    <Container key={product.id}>
-      <Card.Header>
-        {quantityAdded > 0 ? (
-          <Link to="/cart">
-            <Button variant="warning">Finalizar compra</Button>
-          </Link>
-        ) : (
-          <ItemCount stock={product.stock} initial={1} onAdd={handleOnAdd} />
-        )}
-      </Card.Header>
-
+    <Container id="card" key={product.id}>
       <Card border="warning" style={{ width: '70rem' }}>
+        <Card.Header>
+          {quantityAdded > 0 ? (
+            <Link to="/cart">
+              <Button variant="warning">Finalizar compra</Button>
+            </Link>
+          ) : (
+            <ItemCount stock={product.stock} initial={1} onAdd={handleOnAdd} />
+          )}
+        </Card.Header>
+
         <Card.Body>
           <Card.Title>{product.title}</Card.Title>
           <Card.Text>${product.price}</Card.Text>

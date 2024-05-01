@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Container } from 'react-bootstrap';
 import Button from 'react-bootstrap/Button';
 
-export const ItemCount = ({ stock, initial, onAdd, product }) => {
+export const ItemCount = ({ stock, initial, onAdd }) => {
   const [quantity, setQuantity] = useState(initial);
 
   const agregarProducto = () => {
