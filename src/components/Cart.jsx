@@ -46,7 +46,7 @@ export const Cart = () => {
     addDoc(orderCollection, order)
       .then(({ id }) => {
         if (id) {
-          alert('Su orden: ' + id + 'ha sido completada!');
+          alert('Su orden: ' + id + '  ha sido completada!');
         }
       })
       .finally(() => {
@@ -90,10 +90,10 @@ export const Cart = () => {
                   <td>{p.price * p.quantity}</td>
                   <td>
                     <Button
-                      variant="success"
+                      variant="outline-success"
                       onClick={() => removeProduct(p.id)}
                     >
-                      Eliminar
+                      x
                     </Button>
                   </td>
                 </tr>
@@ -101,13 +101,15 @@ export const Cart = () => {
               <tr>
                 <td></td>
                 <td></td>
-                <td>TOTAL</td>
-                <td>{total()}</td>
-                <td></td>
-              </tr>
-              <tr>
+                <th>TOTAL $</th>
+                <th>{total()}</th>
                 <td>
-                  <Button variant="success" onClick={() => clearCartList()}>
+                  {' '}
+                  <Button
+                    id="buttonClearCart"
+                    variant="outline-success"
+                    onClick={() => clearCartList()}
+                  >
                     Vaciar Carrito
                   </Button>
                 </td>
@@ -116,6 +118,7 @@ export const Cart = () => {
           </Table>
 
           <Form>
+            <h2>Datos de contacto</h2>
             <Row className="g-2">
               <Col md>
                 <FloatingLabel label="name" className="mb-3">
@@ -152,17 +155,19 @@ export const Cart = () => {
               </Col>
             </Row>
             <Button variant="success" type="button" onClick={handleSubmit}>
-              Enviar
+              Finalizar compra
             </Button>
           </Form>
         </>
       ) : (
-        <>
-          <h2>gracias por su compra</h2>
+        <div id="thanks">
+          <h2>Pedido realizado con exito!</h2>
+          <h3>Le enviamos su comprobante de pago al correo suministrado.</h3>
+          <h2>Muchas gracias por su compra!</h2>
           <Link to="/">
             <Button variant="success">volver a productos</Button>
           </Link>
-        </>
+        </div>
       )}
     </Container>
   );

@@ -22,11 +22,12 @@ export const ItemCount = ({ stock, initial, onAdd }) => {
       <Button variant="outline-success" onClick={quitarProducto}>
         Quitar
       </Button>
-      <span>{quantity}</span>
+      <span id="quantity">{quantity}</span>
       <Button variant="outline-success" onClick={agregarProducto}>
         Agregar
       </Button>
       <Button
+        id="buttonAdd"
         variant="outline-warning"
         onClick={() => onAdd(quantity)}
         disabled={!stock}

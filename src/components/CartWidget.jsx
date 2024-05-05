@@ -1,4 +1,4 @@
-import carrito from '../assets/carrito.jpg';
+import carrito from '../assets/carrito.png';
 import { useContext } from 'react';
 import { CartContext } from '../contexts/CartContext';
 import { Link } from 'react-router-dom';

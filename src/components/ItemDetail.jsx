@@ -27,12 +27,12 @@ export const ItemDetail = (product) => {
   };
 
   return (
-    <Container id="card" key={product.id}>
-      <Card border="warning" style={{ width: '70rem' }}>
+    <Container id="cardDetail" key={product.id}>
+      <Card border="success">
         <Card.Header>
           {quantityAdded > 0 ? (
             <Link to="/cart">
-              <Button variant="warning">Finalizar compra</Button>
+              <Button variant="warning">Comprar</Button>
             </Link>
           ) : (
             <ItemCount stock={product.stock} initial={1} onAdd={handleOnAdd} />

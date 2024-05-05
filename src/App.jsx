@@ -13,20 +13,22 @@ import { Provider } from './contexts/CartContext';
 
 function App() {
   return (
-    <Provider>
-      <BrowserRouter>
-        <NavBar />
-        <Routes>
-          <Route
-            path="/"
-            element={<ItemListContainer greeting="Bienvenidos!" />}
-          />
-          <Route path="/category/:id" element={<ItemListContainer />} />
-          <Route path="/item/:id" element={<ItemDetailContainer />} />
-          <Route path="/cart" element={<Cart />} />
-        </Routes>
-      </BrowserRouter>
-    </Provider>
+    <>
+      <Provider>
+        <BrowserRouter>
+          <NavBar />
+          <Routes>
+            <Route
+              path="/"
+              element={<ItemListContainer greeting="Bienvenidos!" />}
+            />
+            <Route path="/category/:id" element={<ItemListContainer />} />
+            <Route path="/item/:id" element={<ItemDetailContainer />} />
+            <Route path="/cart" element={<Cart />} />
+          </Routes>
+        </BrowserRouter>
+      </Provider>
+    </>
   );
 }
 

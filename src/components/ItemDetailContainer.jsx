@@ -2,9 +2,9 @@ import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { getFirestore, getDoc, doc } from 'firebase/firestore';
 
-import data from '../data/MOCK_DATA (1).json';
 import { ItemDetail } from './ItemDetail';
 import { Container } from 'react-bootstrap';
+import Spinner from 'react-bootstrap/Spinner';
 
 export const ItemDetailContainer = () => {
   const [product, setProduct] = useState(null);
@@ -18,7 +18,12 @@ export const ItemDetailContainer = () => {
     });
   }, [id]);
 
-  if (!product) return <Container>Loading</Container>;
+  if (!product)
+    return (
+      <Container id="spinner">
+        <Spinner animation="border" variant="success" />
+      </Container>
+    );
 
   return (
     <>

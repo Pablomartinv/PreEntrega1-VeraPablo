@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
+import Spinner from 'react-bootstrap/Spinner';
 
 import {
   getFirestore,
@@ -10,7 +11,6 @@ import {
   where,
 } from 'firebase/firestore';
 
-import data from '../data/MOCK_DATA (1).json';
 import { ItemList } from './ItemList';
 
 export const ItemListContainer = ({ greeting }) => {
@@ -47,7 +47,7 @@ export const ItemListContainer = ({ greeting }) => {
   if (loading)
     return (
       <Container>
-        <h2>Loading</h2>
+        <Spinner animation="border" variant="success" />
       </Container>
     );
 
@@ -57,7 +57,6 @@ export const ItemListContainer = ({ greeting }) => {
         <div id="greeting">
           <h2>{greeting}</h2>
         </div>
-
         <ItemList products={products} />
       </Container>
     </>
