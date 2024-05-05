@@ -40,12 +40,8 @@ body {
   font-size: 10px;
 }
 
-#thanks {
+#thanks,
+#noCart {
   margin-top: 5rem;
   margin-left: 5rem;
-  align-content: center;
-}
-
-#spinner {
-  margin-top: 15 rem;
 }

@@ -58,7 +58,7 @@ export const Cart = () => {
   if (cartList.length === 0)
     return (
       <Container>
-        <div>
+        <div id="noCart">
           <h2>No hay productos en el carrito</h2>
           <Link to="/">
             <Button variant="success">ver productos</Button>
